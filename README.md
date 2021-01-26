@@ -1,6 +1,10 @@
-# v_ui
+## 自定义常用组件
 
-> A Vue.js project
+> 1、横向菜单（点击选项自动居中）
+
+> 2、横向文字跑马灯
+
+> 3、9宫格抽奖
 
 ## Build Setup
 
@@ -10,12 +14,3 @@ npm install
 
 # serve with hot reload at localhost:8080
 npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
