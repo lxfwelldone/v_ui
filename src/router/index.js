@@ -3,9 +3,19 @@ import VueRouter from 'vue-router'
 import testMenu from '../test/testMenu.vue'
 import testLuckyDraw from '../test/testLuckyDraw.vue'
 import testMarquee from '../test/testMarquee.vue'
+import tr from '../test/testRoating.vue'
+
 Vue.use(VueRouter)
 
 const routes = [
+  {
+		path: '/tr',
+		name: 'trttttt',
+		component: tr,
+		meta: {
+			footShow: false,
+		},
+	},
 	{
 		path: '/testLuckyDraw',
 		name: 'testLuckyDraw',
