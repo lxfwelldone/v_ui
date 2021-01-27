@@ -4,10 +4,21 @@ import testMenu from '../test/testMenu.vue'
 import testLuckyDraw from '../test/testLuckyDraw.vue'
 import testMarquee from '../test/testMarquee.vue'
 import tr from '../test/testRoating.vue'
+import testAlert  from "../test/testAlert.vue";
+
+
 
 Vue.use(VueRouter)
 
 const routes = [
+	{
+		path: '/testAlert',
+		name: 'testAlert',
+		component: testAlert,
+		meta: {
+			footShow: false,
+		},
+	},
   {
 		path: '/tr',
 		name: 'trttttt',
